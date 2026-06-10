@@ -1,1 +1,0 @@
-# DuanHailiang-Numerical-Solution-of-Heat-Conduction-Equation-Based-on-PINN
