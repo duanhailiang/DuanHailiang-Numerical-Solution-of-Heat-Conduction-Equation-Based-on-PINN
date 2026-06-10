@@ -1,0 +1,5 @@
+method,setting,rmse,linf_error,relative_l2,time_seconds
+PINN,"N_f=2000,N_ic=100,N_bc=200",0.0023,0.0078,0.0041,68.4
+PINN(Adam+L-BFGS),"Adam epochs=2000,L-BFGS steps=600",0.00162,0.0052,0.00295,82.7
+FDM,"N_x=100,N_t=2000",0.00012,0.00036,0.00025,0.52
+PINN(no PDE loss),N_data=400,0.0185,0.0524,0.0301,21.6
